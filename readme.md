@@ -6,9 +6,9 @@ TensorFlow already provides several object detection models (pre-trained classif
 
 <b>The model detects the users with typically 3 categories:<ul><li>with_mask</li><li>without_mask</li><li>mask_weared_incorrect</li></ul></b>
 
-## OUTPUTS
+## Outputs
 
-<img src="images/image1.jpg" width=400> <img src="images/image3.jpg" width=500> 
+<img src="images/image1.jpg" width="45%"> <img src="images/image3.jpg" width="49.5%" height="320"> 
 
 <img src="images/image8.jpg" width="95%"> 
 
@@ -16,9 +16,9 @@ TensorFlow already provides several object detection models (pre-trained classif
 
 <img src="images/image5.jpg" width="59.5%"> <img src="images/image7.jpg" width="35%" height="60%">
 
-<img src="images/image6.jpg" width=405> <img src="images/image9.jpg" width=495>
+<img src="images/image6.jpg" width="42.5%"> <img src="images/image9.jpg" width="52%">
 
-<img src="images/image2.jpg" width="75%">
+<img src="images/image2.jpg" width="80%">
 
 <hr>
 
