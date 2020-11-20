@@ -8,7 +8,7 @@ TensorFlow already provides several object detection models (pre-trained classif
 
 ## Outputs
 
-<img src="images/image1.jpg" width="45%"> <img src="images/image3.jpg" width="49.5%" height="320"> 
+<img src="images/image1.jpg" width="42.25%"> <img src="images/image3.jpg" width="52.25%"> 
 
 <img src="images/image8.jpg" width="95%"> 
 
