@@ -5,7 +5,22 @@ The model has been trained on <b>Google Colab with GPU</b> and the runtime was a
 TensorFlow already provides several object detection models (pre-trained classifiers with specific neural network architectures) in its [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md). I re-trained my model on <b>Faster-RCNN-Inception-V2-COCO</b> since this project works with images and I preferred to go for higher accuracy. The SDD-MobileNet model seems better for faster fps in videos but underperforms when it comes to accuracy.<br>
 
 <b>The model detects the users with typically 3 categories:<ul><li>with_mask</li><li>without_mask</li><li>mask_weared_incorrect</li></ul></b>
-![PICTURE 1](https://drive.google.com/drive/folders/1AwUvADlVHiw4hG5JMtOfQS0YnGtM2HEk?usp=sharing)
+
+## OUTPUTS
+
+<img src="images/image1.jpg" width=400> <img src="images/image3.jpg" width=500> 
+
+<img src="images/image8.jpg" width="95%"> 
+
+<img src="images/image4.jpg" width="36%"> <img src="images/image10.jpg" width="58.5%"> 
+
+<img src="images/image5.jpg" width="59.5%"> <img src="images/image7.jpg" width="35%" height="60%">
+
+<img src="images/image6.jpg" width=405> <img src="images/image9.jpg" width=495>
+
+<img src="images/image2.jpg" width="75%">
+
+<hr>
 
 ## <i>How to test your own images ?</i>
 <b>1. Download my repository to a location you remember. (*Use git clone or Download ZIP*) </b> <br><br>
