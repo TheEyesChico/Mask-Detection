@@ -2,9 +2,15 @@
 
 It is created using TensorFlow's Object Detection API to train object detection classifier for face mask detection in COVID-19. <br>
 The model has been trained on <b>Google Colab with GPU</b> and the runtime was approximately <b>2-3 hours.</b><br><br>
-TensorFlow already provides several object detection models (pre-trained classifiers with specific neural network architectures) in its [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md). I re-trained my model on <b>Faster-RCNN-Inception-V2-COCO</b> since this project works with images and I preferred to go for higher accuracy. The SDD-MobileNet model seems better for faster fps in videos but underperforms when it comes to accuracy.<br>
+TensorFlow already provides several object detection models (pre-trained classifiers with specific neural network architectures) in its [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md). I re-trained my model on <b>Faster-RCNN-Inception-V2-COCO</b> since this project works with images and I preferred to go for higher accuracy. The SDD-MobileNet model seems better for faster fps in videos but underperforms when it comes to accuracy.<br><br>
 
-<b>The model detects the users with typically 3 categories:<ul><li>with_mask</li><li>without_mask</li><li>mask_weared_incorrect</li></ul></b>
+<b>The model detects the users with typically 3 categories:
+
+|S.No.|Label|Color|
+|:--:|:---:|:---:|
+| 1  |with_mask             | ![#82FF02](https://via.placeholder.com/15/82FF02/000000?text=+) |
+| 2  | without_mask         | ![#01FEFC](https://via.placeholder.com/15/01FEFC/000000?text=+) | 
+| 3  | mask_weared_incorrect| ![#85FDCF](https://via.placeholder.com/15/85FDCF/000000?text=+) | <br>
 
 ## Outputs
 
