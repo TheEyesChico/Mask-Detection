@@ -47,5 +47,5 @@ TensorFlow already provides several object detection models (pre-trained classif
 &emsp;i. You need to put the absolute path of this repository inside `INITIAL_DIR=''` variable in <b>Mask_Detection.ipynb</b><br> 
 &emsp;&emsp;```INITIAL_DIR = C:/Users/Raghu/Mask-Detection``` which is where I saved my project*<br><br>
 &emsp;ii. Put the images you want to try inside <b>test_images</b> folder located at root <br>
-<br><br>
+<br>
 <b>6. The outputs will be shown and saved directly to the outputs folder.</b>
