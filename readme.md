@@ -30,7 +30,7 @@ TensorFlow already provides several object detection models (pre-trained classif
 
 ## <i>How to test your own images ?</i>
 <b>1. Download my repository to a location you remember. (*Use git clone or Download ZIP*) </b> <br><br>
-<b>2. Setup a virtual environment. </b> (*I have used anaconda for this project with python 3.7 to maintain compatibility with tensorflow 1.15 *) <br><br>
+<b>2. Setup a virtual environment. </b> *(I have used anaconda for this project with python 3.7 to maintain compatibility with tensorflow 1.15)* <br><br>
 &emsp;`conda create -n mask_detection python=3.7`<br>
 &emsp;`conda activate mask_detection`<br>
 &emsp;`cd Mask-Detection`<br>
@@ -44,7 +44,8 @@ TensorFlow already provides several object detection models (pre-trained classif
 
 <b>4. Launch Jupyter Notebook inside Anaconda by typing : `jupyter notebook` <br><br></b>
 <b>5. Open Mask_Detection.ipynb. </b><br><br>
-&emsp;i. You need to put the absolute path of this repository inside `INITIAL_DIR=''` variable in <b>Mask_Detection.ipynb</b> `INITIAL_DIR = C:/Users/Raghu/Mask-Detection` which is where I saved my project*<br><br>
+&emsp;i. You need to put the absolute path of this repository inside `INITIAL_DIR=''` variable in <b>Mask_Detection.ipynb</b><br> 
+&emsp;&emsp;```INITIAL_DIR = C:/Users/Raghu/Mask-Detection``` which is where I saved my project*<br><br>
 &emsp;ii. Put the images you want to try inside <b>test_images</b> folder located at root <br>
 <br><br>
-<b>6. The outputs will be shown or saved to the Outputs folder.</b>
+<b>6. The outputs will be shown and saved directly to the outputs folder.</b>
