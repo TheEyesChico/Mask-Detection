@@ -14,17 +14,17 @@ TensorFlow already provides several object detection models (pre-trained classif
 
 ## Outputs
 
-<img src="images/image1.jpg" width="42.25%"> <img src="images/image3.jpg" width="52.25%"> 
+<img src="images_readme/image1.jpg" width="42.25%"> <img src="images_readme/image3.jpg" width="52.25%"> 
 
-<img src="images/image8.jpg" width="95%"> 
+<img src="images_readme/image8.jpg" width="95%"> 
 
-<img src="images/image4.jpg" width="36%"> <img src="images/image10.jpg" width="58.5%"> 
+<img src="images_readme/image4.jpg" width="36%"> <img src="images_readme/image10.jpg" width="58.5%"> 
 
-<img src="images/image5.jpg" width="59.5%"> <img src="images/image7.jpg" width="35%" height="60%">
+<img src="images_readme/image5.jpg" width="59.5%"> <img src="images_readme/image7.jpg" width="35%" height="60%">
 
-<img src="images/image6.jpg" width="42.5%"> <img src="images/image9.jpg" width="52%">
+<img src="images_readme/image6.jpg" width="42.5%"> <img src="images_readme/image9.jpg" width="52%">
 
-<img src="images/image2.jpg" width="80%">
+<img src="images_readme/image2.jpg" width="80%">
 
 <hr>
 
