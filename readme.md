@@ -1,7 +1,7 @@
 ## Training Object Detection Classifier for Mask Recognition using TensorFlow
 
-It is created using TensorFlow's Object Detection API to train object detection classifier for face mask detection in COVID-19. <br>
-The model has been trained on <b>Google Colab with GPU</b> and the runtime was approximately <b>2-3 hours.</b><br><br>
+It is created using TensorFlow's Object Detection API to train object detection classifier for face mask detection in COVID-19.
+The model has been trained on <b>Google Colab with GPU</b> and the runtime was approximately <b>4-5 hours.</b><br><br>
 TensorFlow already provides several object detection models (pre-trained classifiers with specific neural network architectures) in its [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md). I re-trained my model on <b>Faster-RCNN-Inception-V2-COCO</b> since this project works with images and I preferred to go for higher accuracy. The SDD-MobileNet model seems better for faster fps in videos but underperforms when it comes to accuracy.<br><br>
 
 <b>The model detects the users with typically 3 categories: </b>
